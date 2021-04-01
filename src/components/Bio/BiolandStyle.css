@@ -1,0 +1,140 @@
+.bio_container{
+  height: 200vw;
+  display: flex;
+ flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .bio_container {
+    height: 650vw;
+    width: 483px;
+  }
+}
+
+.all_bio1{
+  height: 500px;
+  width: 1349px;
+  display: flex;
+  flex-wrap: wrap;
+
+  
+}
+@media only screen and (max-width: 600px) {
+  .all_bio1 {
+   width: 200px;
+  }
+}
+.all_bio1 > img{
+
+   
+}
+
+@media only screen and (max-width: 600px) {
+  .all_bio1 > img{
+   width: 483px;
+   height: 295px;
+  }
+}
+
+.bio_containt{
+  height: 1000px;
+  width: 98.75vw;
+ 
+  display: flex;
+  justify-content: center;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .bio_containt {
+   width: 483px;
+  }
+}
+.main_bio{
+
+  width: 750px;
+  height: 2000px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+@media only screen and (max-width: 600px) {
+  .main_bio {
+    width: 450px;
+  
+ 
+  }
+}
+.co
+.namecon{
+  font-weight: 600w; 
+  font-size: 25px
+
+}
+
+@media only screen and (max-width: 600px) {
+  .namecon {
+   width: 483px;
+   font-size: 20px;
+   margin-top: -215px;
+ 
+  }
+}
+.contain_f{
+  height: 100px;
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+  .contain_f {
+   width: 470px;
+   height: 1500px;
+   font-weight: 500;
+   
+  }
+}
+.conImage{
+  height: 3000px;
+  background: black;
+  margin-top: 300px;
+}
+@media only screen and (max-width: 600px) {
+  .conImage{
+    
+    background: black;
+    margin-top: 10px;
+    width: 483px;
+    height: 295px;
+  }
+}
+
+.conImage > img{
+  height: 400px;
+  background: black;
+  width: 750px;
+
+}
+@media only screen and (max-width: 600px) {
+  .conImage > img{
+    width: 483px;
+   height: 295px;
+   
+  
+  }
+}
+.con2{
+  margin-top: 30px;
+  height: 10000px;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .con2{
+   height: 100x;
+   width: 483px;
+   
+  }
+}
